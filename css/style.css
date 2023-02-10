@@ -1,0 +1,59 @@
+/* carousel container */
+.container-lg {
+    height: 100vh;
+}
+
+
+
+/* principal side carousel */
+.row {
+    height: 500px;
+}
+
+.principal_image {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* lateral side carousel */
+.lateral_carousel {
+    height: 500px;
+    position: relative;
+}
+
+.carousel_img {
+    height: calc(100%/5);
+    width: 100%;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* scroll buttons */
+.scroll_button {
+    position: absolute;
+    border-width: 0;
+    border-radius: 50px;
+    opacity: 70%;
+}
+
+.scroll_button:first-child {
+    top: .5rem;
+}
+
+.scroll_button:last-child {
+    bottom: .5rem;
+}
+
+.active {
+    border: 3px solid white;
+    box-shadow: 0px 0px 2px 2px;
+}

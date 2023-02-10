@@ -78,7 +78,7 @@ scroll_button[0].addEventListener("click", function () {
                 carousel_img[i].classList.remove("active");
                 carousel_img[i - 1].classList.add("active");
 
-                principal_image.innerHTML = `<img src="${Images[i - 1]}" class="img"</img>`;
+                principal_image.innerHTML = `<img src="${Images[i - 1]}" class="img"</img>`; //output
 
                 return;
             }
@@ -95,7 +95,7 @@ scroll_button[1].addEventListener("click", function () {
                 carousel_img[i].classList.remove("active");
                 carousel_img[i + 1].classList.add("active");
 
-                principal_image.innerHTML = `<img src="${Images[i + 1]}" class="img"</img>`;
+                principal_image.innerHTML = `<img src="${Images[i + 1]}" class="img"</img>`; //output
                 return;
             }
         }
